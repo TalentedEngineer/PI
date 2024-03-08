@@ -1,0 +1,31 @@
+.no-scrollbar::-webkit-scrollbar {
+  display: none !important;
+  width: 0 !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #e0e1e2;
+  border-radius: 50px;
+  width: 10px;
+  display: none;
+}
+
+.custom-scrollbar.scrollbar-thin::-webkit-scrollbar {
+  height: 5px;
+}
+
+.custom-scrollbar:hover::-webkit-scrollbar-thumb {
+  display: block;
+}
+
+.custom-scrollbar:active::-webkit-scrollbar-thumb {
+  background-color: #c1c3c5;
+}
+
+.apexcharts-legend-marker, .apexcharts-legend-marker {
+  /* border-radius: 50% !important; */
+}

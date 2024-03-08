@@ -1,0 +1,43 @@
+/* 
+=================
+Table
+=====================
+*/
+
+.table_container {
+  max-width: 750px;
+  /* max-height: 500px; */
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+caption {
+  font-style: italic;
+  font-size: 90%;
+  margin-bottom: 10px;
+}
+
+.table th.up {
+  background-image: url("../assets/table/up_arrow.png");
+}
+
+.table th.down {
+  background-image: url("../assets/table/down_arrow.png");
+}
+
+.table th.default {
+  background-image: url("../assets/table/default.png");
+}
+
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}

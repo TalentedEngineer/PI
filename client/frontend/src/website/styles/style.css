@@ -1,0 +1,76 @@
+.hombg {
+  background: url("../assets/herobg.jpg");
+  background-size: cover;
+}
+
+.bg-2 {
+  background: url("../assets/h8-bg2.jpg");
+}
+
+.react-multiple-carousel__arrow--left:hover,
+.react-multiple-carousel__arrow--right:hover {
+  background: #7852F3 !important;
+}
+
+.active-form-look {
+  color: #5BBB7B !important;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.082);
+  border: 1px solid rgba(128, 128, 128, 0.178);
+}
+
+.vert-line::after {
+  content: "";
+  display: inline-block;
+  width: 0.1px;
+  height: 25px;
+  background-color: #f3f4f6;
+  /* margin-left: '0.5rem'; */
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.vert-line:last-child:after {
+  display: none;
+}
+
+#description .ql-editor {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: #1f2937;
+}
+
+#description .ql-container {
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-color: rgb(228, 228, 228);
+  border-width: 2px;
+}
+
+#description .ql-snow.ql-toolbar {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-color: rgb(228, 228, 228);
+  border-width: 2px;
+}
+
+.serv-hero {
+  background: linear-gradient(90deg, rgb(120 82 243 / 75%), rgb(96 66 196 / 55%));
+}
+
+.authbg {
+  background: url("../assets/authbg.jpg");
+  background-size: cover;
+}
+
+/* .carousel-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: 100%;
+  overflow: hidden;
+} */

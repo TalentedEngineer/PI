@@ -1,0 +1,76 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.left-hero-1 {
+  background-image: url('../assets/nft6.PNG');
+  /* filter: blur(0.6px); */
+}
+
+.left-hero-2 {
+  background-image: url('../assets/nft8.png');
+  /* filter: blur(0.6px); */
+}
+
+.left-hero-3 {
+  background-image: url('../assets/nft5.jpg');
+  /* filter: blur(0.6px); */
+}
+
+.right-hero-1 {
+  background-image: url('../assets/nft10.jpg');
+  /* filter: blur(0.6px); */
+}
+
+.right-hero-2 {
+  background-image: url('../assets/nft9.jpg');
+  /* filter: blur(0.6px); */
+}
+
+.right-hero-3 {
+  background-image: url('../assets/nft11.jpeg');
+  /* filter: blur(0.6px); */
+}
+
+.react-multiple-carousel__arrow {
+  z-index: 20 !important;
+}
+
+.react-multiple-carousel__arrow--left {
+  background: white !important;
+  left: calc(1% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--left::before {
+  color: black !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  background: white !important;
+  right: calc(1% + 1px) !important;
+}
+
+.react-multiple-carousel__arrow--right::before {
+  color: black !important;
+}
+
+.react-multi-carousel-dot--active button {
+  background: #7852f3 !important;
+  border-color: #7852f3 !important;
+}
+
+.react-multi-carousel-dot {
+  border-color: rgb(158, 157, 157) !important;
+}
+
+.active-tab-look {
+  /* padding: 5px; */
+  background: rgb(243 244 246 / var(--tw-border-opacity));
+  color: black !important;
+}
+
+.react-multi-carousel-list {
+  padding-bottom: 20px;
+}
+
+/* sort table/stas yable */
